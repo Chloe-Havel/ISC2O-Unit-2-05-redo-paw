@@ -1,7 +1,7 @@
-# ICS2O-PWA-Template-HTML
+# ISC2O-Unit-2-05-redo-paw
 
-[![Mr Coxall's Super Linter](https://github.com/Chloe-Havel/ICS2O-PWA-Test-1/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/Chloe-Havel/ICS2O-PWA-Test-1/actions)
+[![Mr Coxall's Super Linter](https://github.com/Chloe-HaveISC2O-Unit-2-05-redo-paw-1/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/Chloe-Havel/ISC2O-Unit-2-05-redo-paw/actions)
 
-[![Run on Repl.it](https://repl.it/badge/github/Chloe-Havel/ICS2O-PWA-Test-1)](https://repl.it/github/Chloe-Havel/ICS2O-PWA-Test-1)
+[![Run on Repl.it](https://repl.it/badge/github/Chloe-Havel/ISC2O-Unit-2-05-redo-paw1)](https://repl.it/github/Chloe-Havel/ISC2O-Unit-2-05-redo-paw)
 
-This site can be found at: [https://Chloe-Havel.github.io/ICS2O-PWA-Test-1/](https://Chloe-Havel.github.io/ICS2O-PWA-Test-1/)
+This site can be found at: [https://Chloe-Havel.github.io/ISC2O-Unit-2-05-redo-paw/](https://Chloe-Havel.github.io/ISC2O-Unit-2-05-redo-paw/)
