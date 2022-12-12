@@ -8,26 +8,27 @@
  * This function displays "Hello, World!".
  * @constructor
  */
-'use strict'
+"use strict"
 
 /**
  * This function calculates the area and perimeter of the rectangle.
  */
 function calculate() {
   const TAX_RATE = 0.18
-  
+
   // input
-  const number = parseInt(document.getElementById('number-of-hours').value)
-  const rate = parseInt(document.getElementById('hourly-rate').value)
+  const number = parseInt(document.getElementById("number-of-hours").value)
+  const rate = parseInt(document.getElementById("hourly-rate").value)
 
   // process
   const pay = number * rate
   const taxesToPay = pay * TAX_RATE
   const takeHomePay = pay - taxesToPay
 
-  // output  
-  document.getElementById('number').innerHTML = 'your pay will be: ' + ' $ ' + pay
-  document.getElementById('rate').innerHTML = 'the goverment will take: ' + ' $ ' + takeHomePay
+  // output
+  document.getElementById("number").innerHTML =
+    "your pay will be: " + " $ " + pay
+  document.getElementById("rate").innerHTML =
+    "the goverment will take: " + " $ " + takeHomePay
 }
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
-
+document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
