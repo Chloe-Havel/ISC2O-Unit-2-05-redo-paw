@@ -31,4 +31,4 @@ function calculate() {
   document.getElementById("rate").innerHTML =
     "the goverment will take: " + " $ " + takeHomePay
 }
-document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+
