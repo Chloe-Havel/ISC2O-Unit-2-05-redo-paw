@@ -4,20 +4,30 @@
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
-"use strict"
+/**
+ * This function displays "Hello, World!".
+ * @constructor
+ */
+'use strict'
 
 /**
- * Check servie worker.
+ * This function calculates the area and perimeter of the rectangle.
  */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("ISC2O-Unit-2-05-redo-paw", {
-    scope: "/ISC2O-Unit-2-05-redo-paw/",
-  })
+function calculate() {
+  const TAX_RATE = 0.18
+  
+  // input
+  const number = parseInt(document.getElementById('number-of-hours').value)
+  const rate = parseInt(document.getElementById('hourly-rate').value)
+
+  // process
+  const pay = number * rate
+  const taxesToPay = pay * TAX_RATE
+  const takeHomePay = pay - taxesToPay
+
+  // output  
+  document.getElementById('number').innerHTML = 'your pay will be: ' + ' $ ' + pay
+  document.getElementById('rate').innerHTML = 'the goverment will take: ' + ' $ ' + takeHomePay
 }
-
-/**
- * This function displays an alert.
- */
-function myButtonClicked() {
   document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
 }
